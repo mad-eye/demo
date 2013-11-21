@@ -1,7 +1,7 @@
 var File = require("../models/File");
 var assert = require("assert");
 describe('File', function(){
-  describe("exension", function(){
+  describe("#extension", function(){
     it("should compute the extension correctly for `package.json`", function(){
       var file = new File("package.json");
       assert.equal(file.extension(), ".json");
@@ -18,7 +18,7 @@ describe('File', function(){
     });
   });
 
-  describe('parse', function(){
+  describe('#parse', function(){
     it('should be able to read and parse a simple JSON file', function(done){
       var file = new File("test/simple.json");
       file.read(function(){
