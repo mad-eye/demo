@@ -3,7 +3,7 @@
   "description": "sample project",
   "version": "0.0.1",
   "private": true,
-  "respository": "https://github.com/mad-eye/demo",
+  "repository": "https://github.com/mad-eye/demo",
   "scripts": {
     "test": "mocha --reporter nyan"
   },
